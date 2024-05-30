@@ -2,9 +2,9 @@
 
 # Borg backup script
 
-REPOSITORY="local_path..."
-SOURCE="dir of the sources file"
-BOG_S3_BACKUP_BUCKET="name of bucket in amazon s3"
+REPOSITORY="borg_repo_name"
+SOURCE="source_dir"
+BOG_S3_BACKUP_BUCKET="s3_bucket_name"
 
 
 export BORG_PASSPHRASE=''
